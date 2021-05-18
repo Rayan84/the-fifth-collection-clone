@@ -15,22 +15,22 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <header>
-      <nav class="top-nav flex">
-        <ul>
+      <nav class="top-nav">
+        <ul class="flex">
           <li>currency:</li>
           <ul>
-            <li>australian $ (aud)</li>
-            <li>euro (eur)</li>
-            <li>hong kong  (hkd)</li>
-            <li>singapore $ (sgd)</li>
-            <li>united states $ (usd)</li>
+            <li class="cursor-pointer">australian $ (aud) <span>&darr;</span></li>
+            <li class="cursor-pointer">euro (eur)</li>
+            <li class="cursor-pointer">hong kong  (hkd)</li>
+            <li class="cursor-pointer">singapore $ (sgd)</li>
+            <li class="cursor-pointer">united states $ (usd)</li>
           </ul>
-          <li>subscribe</li>
-          <li>login</li>
+          <li class="flex-end cursor-pointer">subscribe</li>
+          <li class="flex-end cursor-pointer">login</li>
         </ul>
       </nav>
       <div class="flex space-around">
-        <button class="text-white background-turquoise" type="button" name="button">SELL WITH US</button>
+        <button class="text-white background-turquoise cursor-pointer" type="button" name="button">SELL WITH US</button>
         <div>
           <h1 class="text-center">THE FIFTH</h1>
           <h2 class="text-center text-underline">COLLECTION</h2>

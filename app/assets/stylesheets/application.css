@@ -49,3 +49,11 @@
 .top-nav ul li:hover {
   color: white;
 }
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
