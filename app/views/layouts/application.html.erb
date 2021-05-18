@@ -8,13 +8,14 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <header>
-      <nav>
+      <nav class="top-nav flex">
         <ul>
           <li>currency:</li>
           <ul>
@@ -24,11 +25,23 @@
             <li>singapore $ (sgd)</li>
             <li>united states $ (usd)</li>
           </ul>
-          <li></li>
           <li>subscribe</li>
           <li>login</li>
         </ul>
       </nav>
+      <div class="flex space-around">
+        <button class="text-white background-turquoise" type="button" name="button">SELL WITH US</button>
+        <div>
+          <h1 class="text-center">THE FIFTH</h1>
+          <h2 class="text-center text-underline">COLLECTION</h2>
+          <p class="text-center">INTELLIGENT LUXURY</p>
+        </div>
+        <div>
+            <i class="fas fa-search"></i>
+            <input type="search" name="" value="" spaceholder="1234">
+        </div>
+
+      </div>
     </header>
     <%= yield %>
   </body>
