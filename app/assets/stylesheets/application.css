@@ -45,3 +45,7 @@
 .top-nav ul li{
     list-style: none;
 }
+
+.top-nav ul li:hover {
+  color: white;
+}
