@@ -73,5 +73,12 @@
 
 .search-input {
     border: lightgrey solid 1px;
-    line-height: 30px;
+}
+
+.line-height-30 {
+  line-height: 30px;
+}
+
+.border-transparent {
+  border-color: transparent;
 }
