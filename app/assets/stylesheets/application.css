@@ -38,8 +38,16 @@
 }
 
 .top-nav {
+  padding: 5px;
   color: #e5e5e5;
   background-color: #7a7b76;
+}
+.top-nav ul ul {
+  width: 40%;
+}
+
+.top-nav ul ul li {
+  margin: 5px;
 }
 
 .top-nav ul li{
@@ -50,12 +58,12 @@
   color: white;
 }
 
-.flex-end {
-  justify-content: flex-end;
-}
-
 .cursor-pointer {
   cursor: pointer;
+}
+
+.align-item-flex-end {
+  justify-content: flex-end;
 }
 
 .position-relative {
@@ -81,4 +89,12 @@
 
 .border-transparent {
   border-color: transparent;
+}
+
+.width-100-percent {
+  width: 100%;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
 }

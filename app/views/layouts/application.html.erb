@@ -16,7 +16,7 @@
     <p class="alert"><%= alert %></p>
     <header>
       <nav class="top-nav">
-        <ul class="flex">
+        <ul class="flex width-100-percent">
           <li>currency:</li>
           <ul>
             <li class="cursor-pointer">australian $ (aud) <span>&darr;</span></li>
@@ -25,13 +25,15 @@
             <li class="cursor-pointer">singapore $ (sgd)</li>
             <li class="cursor-pointer">united states $ (usd)</li>
           </ul>
-          <li class="flex-end cursor-pointer"><i class="fas fa-envelope"></i>subscribe</li>
-          <li class="flex-end cursor-pointer">login</li>
+          <ul class="align-item-flex-end flex">
+            <li class="cursor-pointer"><i class="fas fa-envelope"></i>subscribe</li>
+            <li class="cursor-pointer">login</li>
+          </ul>
         </ul>
       </nav>
       <div class="flex space-around">
         <div class="">
-          <button class="text-white background-turquoise cursor-pointer border-transparent line-height-30" type="button" name="button">SELL WITH US</button>
+          <button class="text-white background-turquoise cursor-pointer border-transparent line-height-30 vertical-align-middle" type="button" name="button">SELL WITH US</button>
         </div>
         <div class="cursor-pointer">
           <h1 class="text-center">THE FIFTH</h1>
