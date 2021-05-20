@@ -57,3 +57,21 @@
 .cursor-pointer {
   cursor: pointer;
 }
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.search-icon {
+  top: 8px;
+  left: 150px;
+}
+
+.search-input {
+    border: lightgrey solid 1px;
+    line-height: 30px;
+}
