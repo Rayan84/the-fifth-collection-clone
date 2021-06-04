@@ -18,16 +18,18 @@
       <nav class="top-nav">
         <ul class="flex width-100-percent">
           <li>currency:</li>
-          <ul>
-            <li class="cursor-pointer">australian $ (aud) <span>&darr;</span></li>
-            <li class="cursor-pointer">euro (eur)</li>
-            <li class="cursor-pointer">hong kong  (hkd)</li>
-            <li class="cursor-pointer">singapore $ (sgd)</li>
-            <li class="cursor-pointer">united states $ (usd)</li>
-          </ul>
+          <select class="" name="">
+            <option class="border-1-px" value="">australian $ (aud)</option>
+            <option class="border-1-px" value="">euro (eur)</option>
+            <option class="border-1-px" value="">hong kong  (hkd)</option>
+            <option class="border-1-px" value="">singapore $ (sgd)</option>
+            <option class="border-1-px" value="">united states $ (usd)</option>
+          </select>
+
           <ul class="align-item-flex-end flex">
             <li class="cursor-pointer"><i class="fas fa-envelope"></i>subscribe</li>
             <li class="cursor-pointer">login</li>
+            <li><i class="fas fa-shopping-cart"></i><span>(</span>0<span>)</span></li>
           </ul>
         </ul>
       </nav>
@@ -45,6 +47,18 @@
             <input class="search-input line-height-30" type="search" name="search1" placeholder="I am looking for...">
         </div>
       </div>
+      <div class="second-nav-container">
+        <ul class="">
+          <li>designer</li>
+          <li>collections</li>
+          <li>clothing</li>
+          <li>shoes</li>
+          <li>bags</li>
+          <li>jewellery</li>
+          <li>editorial</li>
+        </ul>
+      </div>
+
     </header>
     <%= yield %>
   </body>

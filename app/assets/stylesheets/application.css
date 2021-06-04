@@ -38,20 +38,25 @@
 }
 
 .top-nav {
-  padding: 5px;
   color: #e5e5e5;
   background-color: #7a7b76;
 }
-.top-nav ul ul {
-  width: 40%;
+
+select {
+  background-color: inherit;
+  color:  white;
 }
 
-.top-nav ul ul li {
-  margin: 5px;
+select option {
+  margin: 40px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
 
 .top-nav ul li{
     list-style: none;
+    margin: 12px;
 }
 
 .top-nav ul li:hover {
@@ -97,4 +102,12 @@
 
 .vertical-align-middle {
   vertical-align: middle;
+}
+
+i {
+  margin-right: 5px;
+}
+
+.border-1-px {
+  border: 1px solid red;
 }
