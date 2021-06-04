@@ -37,6 +37,10 @@
   justify-content: space-around;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
 .top-nav {
   color: #e5e5e5;
   background-color: #7a7b76;
@@ -55,8 +59,8 @@ select option {
 }
 
 .top-nav ul li{
-    list-style: none;
-    margin: 12px;
+  list-style: none;
+  margin: 12px;
 }
 
 .top-nav ul li:hover {
@@ -110,4 +114,25 @@ i {
 
 .border-1-px {
   border: 1px solid red;
+}
+
+.text-transform-uppercase {
+  text-transform: uppercase;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.font-family-avenir {
+  font-family: avenir;
+}
+
+.second-nav {
+  color: #343343;
+  font-size: 14px;
+}
+
+.second-nav li:hover {
+  text-decoration: underline;
 }
