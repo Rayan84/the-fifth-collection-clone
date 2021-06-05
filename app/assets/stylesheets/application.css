@@ -14,6 +14,9 @@
  *= require_self
  */
 
+body {
+  margin: 0px;
+}
  .main-container {
    width: 1170px;
  }
@@ -140,6 +143,8 @@ i {
 .second-nav {
   color: #343343;
   font-size: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
 }
 
 .second-nav li:hover {
