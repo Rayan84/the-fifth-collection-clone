@@ -155,3 +155,17 @@ i {
 .align-items-center {
   align-items: center;
 }
+
+.first-section div {
+  width: 70%;
+}
+
+.first-section div img {
+  width: 100%;
+}
+
+.quote-container {
+  width: 30%;
+  background-color: #7a7b76;
+  color: #e5e5e5;
+}
