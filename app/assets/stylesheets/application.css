@@ -58,12 +58,16 @@ body {
   background-color: #7a7b76;
 }
 
-select {
+.navbar-select {
   background-color: inherit;
   color:  white;
 }
 
-select option {
+.navbar-select:focus {
+  outline: none;
+}
+
+.navbar-select option {
   margin: 40px;
   background: rgba(0, 0, 0, 0.3);
   color: #fff;
@@ -179,4 +183,8 @@ i {
 .second-section img {
   max-width: 23%;
   margin-bottom: 20px;
+}
+
+.third-section select:focus {
+  outline: none;
 }
