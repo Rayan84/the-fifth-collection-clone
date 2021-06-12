@@ -156,6 +156,10 @@ i {
   align-items: center;
 }
 
+.first-section {
+  margin-bottom: 20px;
+}
+
 .first-section .image-container {
   width: 60%;
 }
@@ -174,4 +178,5 @@ i {
 
 .second-section img {
   max-width: 23%;
+  margin-bottom: 20px;
 }
