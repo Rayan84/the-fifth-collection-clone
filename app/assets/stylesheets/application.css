@@ -156,8 +156,8 @@ i {
   align-items: center;
 }
 
-.first-section div {
-  width: 70%;
+.first-section .image-container {
+  width: 60%;
 }
 
 .first-section div img {
@@ -165,7 +165,9 @@ i {
 }
 
 .quote-container {
-  width: 30%;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
   background-color: #7a7b76;
   color: #e5e5e5;
 }
