@@ -171,3 +171,7 @@ i {
   background-color: #7a7b76;
   color: #e5e5e5;
 }
+
+.second-section img {
+  max-width: 23%;
+}
