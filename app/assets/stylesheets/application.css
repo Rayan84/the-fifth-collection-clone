@@ -193,6 +193,11 @@ i {
   margin-bottom: 20px;
 }
 
+.third-section {
+  border-bottom: lightgrey solid 1px;
+  padding-bottom: 20px;
+}
+
 .third-section select {
   font-size: 16px;
   padding: 5px;
