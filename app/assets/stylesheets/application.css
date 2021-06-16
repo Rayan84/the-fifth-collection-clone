@@ -234,5 +234,12 @@ i {
 }
 
 .footer-top-div {
+  padding-top: 20px;
   background-color: #7a7b76;
+}
+
+.footer-first-item {
+  font-size: 80px;
+  font-style: italic;
+  margin: 46px;
 }
