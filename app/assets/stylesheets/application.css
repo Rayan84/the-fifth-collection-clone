@@ -25,6 +25,10 @@ body {
   margin: auto;
 }
 
+.margin-5-px {
+  margin: 5px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -105,6 +109,16 @@ body {
 
 .position-absolute {
   position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.chat-icon {
+  width: 100px;
+  left: 90%;
+  top: 80%;
 }
 
 .search-icon {
@@ -242,4 +256,17 @@ i {
   font-size: 80px;
   font-style: italic;
   margin: 46px;
+}
+
+.join-form-button {
+  background-color: #555;
+}
+
+.footer-bottom-div {
+  padding-top: 15px;
+}
+
+.footer-image {
+  margin-left: auto;
+  width: 60px;
 }
