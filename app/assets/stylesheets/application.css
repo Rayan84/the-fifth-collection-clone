@@ -163,6 +163,10 @@ i {
   text-transform: uppercase;
 }
 
+.font-weight-bold {
+  font-weight: bold;
+}
+
 .list-style-none {
   list-style: none;
 }
