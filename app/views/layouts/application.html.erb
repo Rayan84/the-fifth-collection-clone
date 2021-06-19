@@ -61,6 +61,9 @@
         </div>
       </div>
     </header>
+    <div class="position-relative">
+      <i class="far fa-comment fa-4x position-fixed chat-icon"></i>
+    </div>
     <%= yield %>
     <footer>
       <div class="footer-top-div  text-white">
@@ -71,9 +74,22 @@
           <div class="">
             <p>Some text some text</p>
             <hr>
-            <p>Follow us:<span></span></p>
+            <div class="flex flex-direction-raw">
+              <p>Follow us:</p>
+              <ul class="flex flex-direction-raw">
+                <li class="list-style-none margin-5-px" href="#"><i class="cursor-pointer fab fa-facebook-f"></i></li>
+                <li class="list-style-none margin-5-px" href="#"><i class="cursor-pointer fab fa-twitter"></i></li>
+                <li class="list-style-none margin-5-px" href="#"><i class="cursor-pointer fab fa-pinterest"></i></li>
+                <li class="list-style-none margin-5-px" href="#"><i class="cursor-pointer fab fa-instagram"></i></li>
+                <li class="list-style-none margin-5-px" href="#"><i class="cursor-pointer fab fa-youtube"></i></li>
+              </ul>
+            </div>
             <hr>
             <p>Be the first to hear about new arrivals, special events and more</p>
+            <form class="" action="index.html" method="post">
+              <input type="email" name="" value="" placeholder="Enter your email address">
+              <input class="join-form-button text-white" type="submit" name="" value="JOIN">
+            </form>
           </div>
           <div class="">
             <h3>TOP BRANDS</h3>
@@ -110,7 +126,12 @@
           </div>
         </div>
       </div>
-      <div class="footer-bottom-div">
+      <div class="footer-bottom-div main-container margin-auto flex flex-direction-raw">
+        <img class="footer-image" src="paypal-logo-svg.png" alt="img">
+        <img class="footer-image" src="197395-small.png" alt="img">
+        <img class="footer-image" src="visa-logo.png" alt="img">
+        <img class="footer-image" src="90-909103_dhl-logo-png-logo-dhl-transparent-png.png" alt="img">
+        <img class="footer-image" src="fedex-express-logo-vector.png" alt="img">
       </div>
     </footer>
   </body>
