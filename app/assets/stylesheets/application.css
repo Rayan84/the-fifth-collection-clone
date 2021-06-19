@@ -118,7 +118,7 @@ body {
 .chat-icon {
   width: 100px;
   left: 90%;
-  top: 80%;
+  top: 91%;
 }
 
 .search-icon {
@@ -236,8 +236,8 @@ i {
 
 .circle {
   border-radius: 50%;
-  width: 20%;
-  height: 220px;
+  width: 16%;
+  height: 180px;
   border: grey solid 2px;
   overflow: hidden;
   justify-content: center;
@@ -249,6 +249,7 @@ i {
 
 .footer-top-div {
   padding-top: 20px;
+  padding-bottom: 40px;
   background-color: #7a7b76;
 }
 
