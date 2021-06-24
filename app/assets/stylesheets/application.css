@@ -14,12 +14,18 @@
  *= require_self
  */
 
+ @font-face {
+  font-family: 'Avenir';
+  src: url('<%= assets_path("AvenirLTStd-Roman.otf") %>');
+ }
+
 body {
   margin: 0px;
 }
- .main-container {
-   width: 1170px;
- }
+
+.main-container {
+  width: 1170px;
+}
 
 .margin-auto {
   margin: auto;
@@ -135,6 +141,10 @@ body {
   outline: grey solid 1px;
 }
 
+.line-height-20 {
+  line-height: 5px;
+}
+
 .line-height-30 {
   line-height: 30px;
 }
@@ -234,8 +244,22 @@ i {
   outline: none;
 }
 
+.third-section div div h4, .third-section div div p {
+  font-family: Avenir;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.view-more-button {
+  margin: 20px;
+}
+
 .max-width-25-percent {
   max-width: 25%;
+}
+
+.text-color-grey {
+  color: grey;
 }
 
 .circle {
@@ -245,6 +269,10 @@ i {
   border: grey solid 2px;
   overflow: hidden;
   justify-content: center;
+}
+
+.circle-icon {
+  margin-top: 18px;
 }
 
 .background-555 {
