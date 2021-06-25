@@ -263,10 +263,13 @@ i {
 }
 
 .circle {
+  margin-top: 30px;
+  margin-bottom: 30px;
   border-radius: 50%;
   width: 16%;
   height: 180px;
-  border: grey solid 2px;
+  border: grey solid 1px;
+  grey solid 2px;
   overflow: hidden;
   justify-content: center;
 }
