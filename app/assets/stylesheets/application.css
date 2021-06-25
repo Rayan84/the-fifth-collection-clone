@@ -298,6 +298,14 @@ i {
   background-color: #555;
 }
 
+.padding-left-0 {
+  padding-left: 0;
+}
+
+.margin-left-25 {
+  margin-left: 25px;
+}
+
 .footer-bottom-div {
   padding-top: 15px;
 }
