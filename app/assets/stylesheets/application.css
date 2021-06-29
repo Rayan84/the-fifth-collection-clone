@@ -97,7 +97,7 @@ body {
   cursor: pointer;
 }
 
-.align-item-flex-end {
+.justify-content-flex-end {
   justify-content: flex-end;
 }
 
@@ -151,6 +151,10 @@ body {
 
 .border-transparent {
   border-color: transparent;
+}
+
+.width-70-percent {
+  width: 70%;
 }
 
 .width-100-percent {
