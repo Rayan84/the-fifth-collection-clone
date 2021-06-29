@@ -302,6 +302,10 @@ i {
   margin: 46px;
 }
 
+.join-form-input:focus {
+  outline: none;
+}
+
 .join-form-button {
   background-color: #555;
   float: right;
