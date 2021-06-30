@@ -208,6 +208,10 @@ i {
   align-items: center;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 .first-section {
   margin-bottom: 20px;
 }
