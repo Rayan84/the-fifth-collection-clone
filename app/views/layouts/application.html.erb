@@ -8,9 +8,211 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <header>
+      <nav class="top-nav flex flex-direction-row space-between">
+        <ul class="flex flex-direction-row main-container margin-auto">
+          <li href="#">currency:</li>
+          <select class="navbar-select text-transform-uppercase" name="">
+            <option class="border-1-px text-transform-uppercase font-weight-bold" value=""><span><img src="Singapore.png" alt=""></span>australian $ (aud)</option>
+            <option class="border-1-px text-transform-uppercase font-weight-bold" value="">euro (eur)</option>
+            <option class="border-1-px text-transform-uppercase font-weight-bold" value="">hong kong  (hkd)</option>
+            <option class="border-1-px text-transform-uppercase font-weight-bold" value="">singapore $ (sgd)</option>
+            <option class="border-1-px text-transform-uppercase font-weight-bold" value="">united states $ (usd)</option>
+          </select>
+
+          <ul class="justify-content-flex-end flex width-70-percent">
+            <li href="#" class="cursor-pointer"><i class="fas fa-envelope"></i>subscribe</li>
+            <li href="#" class="cursor-pointer">login</li>
+            <li href="#"><i class="fas fa-shopping-cart"></i><span>(</span>0<span>)</span></li>
+          </ul>
+        </ul>
+      </nav>
+      <div class="main-container margin-auto">
+        <div class="flex space-between">
+          <div class="flex align-items-center">
+            <button class="text-white background-turquoise cursor-pointer border-transparent line-height-30" type="button" name="button">SELL WITH US</button>
+          </div>
+          <div class="cursor-pointer">
+            <h1 class="text-center">THE FIFTH</h1>
+            <h2 class="text-center text-underline">COLLECTION</h2>
+            <p class="text-center">INTELLIGENT LUXURY</p>
+          </div>
+          <div class="position-relative flex align-items-center">
+              <i class="fas fa-search position-absolute search-icon"></i>
+              <input class="search-input line-height-30" type="search" name="search1" placeholder="I am looking for...">
+          </div>
+        </div>
+        <div class="second-nav-container font-family-avenir">
+          <ul class="second-nav text-transform-uppercase list-style-none flex cursor-pointer space-between">
+            <li href="#">designer</li>
+            <li href="#">collections</li>
+            <li href="#">clothing</li>
+            <li href="#">shoes</li>
+            <li href="#">bags</li>
+            <li href="#">jewellery</li>
+            <li href="#">editorial</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="position-relative">
+      <i class="far fa-comment fa-4x position-fixed chat-icon"></i>
+    </div>
     <%= yield %>
+    <div class="main-container margin-auto fourth-section flex flex-direction-row space-between">
+      <div class="circle flex flex-direction-column cursor-pointer">
+        <div class="height-50-percent text-center">
+          <i class="fas fa-truck fa-3x circle-icon"></i>
+        </div>
+        <div class="text-white line-height-20 background-555 height-50-percent text-center">
+          <p>Free shipping</p>
+          <p><strong>Some text</strong></p>
+          <p>Even more text</p>
+        </div>
+      </div>
+      <div class="circle flex flex-direction-column cursor-pointer">
+        <div class="height-50-percent text-center">
+          <i class="fab fa-salesforce fa-3x circle-icon"></i>
+        </div>
+        <div class="text-white line-height-20 background-555 height-50-percent text-center">
+          <p>Genuine produts</p>
+          <p><strong>Some text</strong></p>
+          <p>Even more text</p>
+        </div>
+      </div>
+      <div class="circle flex flex-direction-column cursor-pointer">
+        <div class="height-50-percent text-center">
+          <i class="fas fa-headset fa-3x circle-icon"></i>
+        </div>
+        <div class="text-white line-height-20 background-555 height-50-percent text-center">
+          <p>Live chat</p>
+          <p><strong>Some text</strong></p>
+          <p>Even more text</p>
+        </div>
+      </div>
+      <div class="circle flex flex-direction-column cursor-pointer">
+        <div class="height-50-percent text-center">
+          <i class="fab fa-amazon-pay fa-3x circle-icon"></i>
+        </div>
+        <div class="text-white line-height-20 background-555 height-50-percent text-center">
+          <p>Easily pay</p>
+          <p><strong>Some text</strong></p>
+          <p>Even more text</p>
+        </div>
+      </div>
+    </div>
+    <div class="reviews-section flex flex-direction-row main-container margin-auto space-between">
+      <div class="align-items-center text-align-center">
+        <h4>EXCELLENT</h4>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <p>Average 4.75 Reviews 520</p>
+      </div>
+      <div class="">
+        <i class="fas fa-chevron-left fa-3x"></i>
+      </div>
+      <div class="">
+        <p><strong>Katie</strong></p>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <p>This is a review by a client</p>
+      </div>
+      <div class="">
+        <p><strong>Shakira</strong></p>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <p>This is a review by a client</p>
+      </div>
+      <div class="">
+        <p><strong>Jack</strong></p>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <p>This is a review by a client</p>
+      </div>
+      <div class="">
+        <i class="fas fa-chevron-right fa-3x"></i>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-top-div text-white">
+        <div class="main-container margin-auto flex flex-direction-raw">
+          <div class="">
+            <p class="footer-first-item">/5</p>
+          </div>
+          <div class="">
+            <p>Some text some text</p>
+            <hr>
+            <div class="flex flex-direction-raw">
+              <p>Follow us:</p>
+              <ul class="flex flex-direction-raw">
+                <li class="list-style-none margin-5-px" href="#"><i class="cursor-pointer fab fa-facebook-f"></i></li>
+                <li class="list-style-none margin-5-px" href="#"><i class="cursor-pointer fab fa-twitter"></i></li>
+                <li class="list-style-none margin-5-px" href="#"><i class="cursor-pointer fab fa-pinterest"></i></li>
+                <li class="list-style-none margin-5-px" href="#"><i class="cursor-pointer fab fa-instagram"></i></li>
+                <li class="list-style-none margin-5-px" href="#"><i class="cursor-pointer fab fa-youtube"></i></li>
+              </ul>
+            </div>
+            <hr>
+            <p>Be the first to hear about new arrivals, special events and more</p>
+            <form class="" action="index.html" method="post">
+              <input class="join-form-input line-height-30 padding-left-right-20 width-70-percent" type="email" name="" value="" placeholder="Enter your email address">
+              <input class="join-form-button text-white line-height-30" type="submit" name="" value="JOIN">
+            </form>
+          </div>
+          <div class="margin-left-25">
+            <h3>TOP BRANDS</h3>
+            <ul class="padding-left-0">
+              <li href="#" class="list-style-none">1</li>
+              <li href="#" class="list-style-none">2</li>
+              <li href="#" class="list-style-none">3</li>
+              <li href="#" class="list-style-none">4</li>
+              <li href="#" class="list-style-none">5</li>
+              <li href="#" class="list-style-none">6</li>
+            </ul>
+          </div>
+          <div class="margin-left-25">
+            <h3>TOP BRANDS</h3>
+            <ul class="padding-left-0">
+              <li href="#" class="list-style-none">1</li>
+              <li href="#" class="list-style-none">2</li>
+              <li href="#" class="list-style-none">3</li>
+              <li href="#" class="list-style-none">4</li>
+              <li href="#" class="list-style-none">5</li>
+              <li href="#" class="list-style-none">6</li>
+            </ul>
+          </div>
+          <div class="margin-left-25">
+            <h3>TOP BRANDS</h3>
+            <ul class="padding-left-0">
+              <li href="#" class="list-style-none">1</li>
+              <li href="#" class="list-style-none">2</li>
+              <li href="#" class="list-style-none">3</li>
+              <li href="#" class="list-style-none">4</li>
+              <li href="#" class="list-style-none">5</li>
+              <li href="#" class="list-style-none">6</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-div main-container margin-auto flex flex-direction-raw">
+        <img class="footer-image" src="paypal-logo-svg.png" alt="img">
+        <img class="footer-image" src="197395-small.png" alt="img">
+        <img class="footer-image" src="visa-logo.png" alt="img">
+        <img class="footer-image" src="90-909103_dhl-logo-png-logo-dhl-transparent-png.png" alt="img">
+        <img class="footer-image" src="fedex-express-logo-vector.png" alt="img">
+      </div>
+    </footer>
   </body>
 </html>
